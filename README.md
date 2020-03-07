@@ -2,7 +2,7 @@
 
 This is an improved version of the skeleton theme for Drupal 8 - [Bare Bones](https://github.com/tinamrak/barebones).
 
-Besides the most essential files, it includes Font Awesome and Bootstrap libraries.
+Besides the most essential files, it also includes Font Awesome and Bootstrap libraries.
 
 You don't have to worry about creating all the files from scratch, just copy this to your *themes* directory and start with development.
 
