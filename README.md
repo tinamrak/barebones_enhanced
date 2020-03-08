@@ -29,7 +29,7 @@ You can use rem units for font sizes: *1rem = 10px*, *1.8rem = 18px*, etc.
 
 ## Usage
 
-Clone this repository  
+Download or clone this theme in to your themes directory 
 ```
 git clone git@github.com:tinamrak/barebones_enhanced.git
 ```
