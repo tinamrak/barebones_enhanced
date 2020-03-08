@@ -33,7 +33,7 @@ rm -R .git;
 
 Install npm packages and run gulp
 ```
-cd .npm
+cd _npm
 npm install
 npm audit fix
 gulp
