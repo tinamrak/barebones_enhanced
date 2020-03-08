@@ -17,7 +17,7 @@ You can use rem units for font sizes: *1rem = 10px*, *1.8rem = 18px*, etc.
   - [Foundation](https://get.foundation/)
   
 - Stop preload animations ([more info](https://css-tricks.com/transitions-only-after-page-load/))
-- Body class (.path-error) for page errors (403, 404)
+- Body class *.path-error* for error pages (403, 404)
 
 
 ## Requiremenets
