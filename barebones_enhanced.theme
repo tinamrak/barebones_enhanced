@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function barebones_enhanced_preprocess_html(&$variables) {
+
+  // Feature: Stop preload animations
+  // https://css-tricks.com/transitions-only-after-page-load/
+  $variables['attributes']['class'][] = 'preload';
+
+  // Feature: Extra <body> class on error (403, 404) pages
+  $status = \Drupal::requestStack()->getCurrentRequest()->attributes->get('exception');
+  if ($status && ($status->getStatusCode() == 403 || $status->getStatusCode() == 404)) {
+    $variables['attributes']['class'][] = 'path-error';
+  }
+
+}

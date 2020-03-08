@@ -1,0 +1,55 @@
+//========================================
+//
+// @file _libraries.scss
+//
+// File containing external libraries.
+//
+// IMPORTANT
+// It is not recommended to use two CSS libraries at the same time.
+// For example, if you uncomment the variable for the Bootstrap library, the 
+// variable for the Foundation library should be commented out.
+//
+//========================================
+
+//-------------------------------
+//
+// Bootstrap
+// https://getbootstrap.com/
+//
+// To use Bootstrap uncomment the line below.
+// If you wish to only use the Bootstrap grid, replace
+// the import with "../_npm/node_modules/bootstrap/scss/bootstrap-grid".
+//
+//-------------------------------
+// @import "../_npm/node_modules/bootstrap/scss/bootstrap";
+
+
+//-------------------------------
+//
+// Foundation
+// https://get.foundation/
+//
+// To use Foundation uncomment the line below.
+//
+//-------------------------------
+// @import "../_npm/node_modules/foundation-sites/assets/foundation";
+
+
+//-------------------------------
+//
+// Font Awesome
+// https://fontawesome.com/
+//
+// To use Font Awesome uncomment the lines below.
+//
+// Example: if you want to use the regular style, you should uncomment
+// the first and second imports, which include the fontawesome library, and
+// the regular style.
+//
+//-------------------------------
+$fa-font-path: '../_npm/node_modules/@fortawesome/fontawesome-free/webfonts';
+
+// @import "../_npm/node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "../_npm/node_modules/@fortawesome/fontawesome-free/scss/regular";
+// @import "../_npm/node_modules/@fortawesome/fontawesome-free/scss/solid";
+// @import "../_npm/node_modules/@fortawesome/fontawesome-free/scss/brands";

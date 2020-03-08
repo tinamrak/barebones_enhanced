@@ -1,0 +1,15 @@
+name: Bare Bones Enhanced
+description: An enhanced starter theme for Drupal 8.
+type: theme
+core: 8.x
+base theme: classy
+
+libraries:
+  - barebones_enhanced/global-css
+  - barebones_enhanced/global-js
+
+regions:
+  header: Header
+  content: Main content
+  footer: Footer
+  
