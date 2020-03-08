@@ -20,7 +20,7 @@ You can use rem units for font sizes: *1rem = 10px*, *1.8rem = 18px*, etc.
 - Body class *.path-error* for error pages (403, 404)
 
 
-## Requiremenets
+## Requirements
 - [Drupal 8](https://www.drupal.org/)
 - [Drush](https://www.drush.org/)
 - [git](https://git-scm.com/)
