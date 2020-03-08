@@ -2,7 +2,7 @@
 
 This is an improved version of the skeleton theme for Drupal 8 - [Bare Bones](https://github.com/tinamrak/barebones).
 
-Besides the most essential files, it also includes Font Awesome and Bootstrap libraries.
+Besides the most essential files it also includes some external libraries and a couple of performance improvements.
 
 You don't have to worry about creating all the files from scratch, just copy this to your *themes* directory and start with development.
 
@@ -10,8 +10,17 @@ CSS and JS source files are located inside the *sass* and *scripts* directories.
 
 You can use rem units for font sizes: *1rem = 10px*, *1.8rem = 18px*, etc.
 
-## Requirements
+## Enhancements
+- External CSS libraries
+  - [Font Awesome](https://fontawesome.com/)
+  - [Bootstrap](https://getbootstrap.com/)
+  - [Foundation](https://get.foundation/)
+  
+- Stop preload animations ([more info](https://css-tricks.com/transitions-only-after-page-load/))
+- Body class (.path-error) for page errors (403, 404)
 
+
+## Requiremenets
 - [Drupal 8](https://www.drupal.org/)
 - [Drush](https://www.drush.org/)
 - [git](https://git-scm.com/)
@@ -43,6 +52,8 @@ Set Bare Bones Enhanced as your default theme
 ```
 drush config-set system.theme default barebones_enhanced -y
 ```
+
+Once this theme is enabled check out the sass/base/_libraries.scss for further instructions on how to enable each external library.
 
 ------------
 
