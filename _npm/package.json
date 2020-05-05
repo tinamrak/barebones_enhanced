@@ -1,11 +1,10 @@
 {
   "name": "barebones",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A skeleton theme for Drupal 8",
   "main": "gulpfile.js",
   "scripts": {
     "setup": "npm install",
-    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
   "repository": {
     "type": "git",
