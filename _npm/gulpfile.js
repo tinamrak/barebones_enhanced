@@ -30,29 +30,32 @@ var fs = require('fs');
 
 // Auto load all required plugins
 var $ = require('gulp-load-plugins')({
-	pattern: '*',
-	scope: 'dependencies',
-	rename: {
-		'jshint': 'jshintCore',
-		'jshint-stylish': 'stylish'
-	}
+  pattern: '*',
+  scope: 'dependencies',
+  rename: {
+    'jshint': 'jshintCore',
+    'jshint-stylish': 'stylish'
+  }
 });
+
+//Add browserSync to supported plugins
+$.browserSync = require("browser-sync").create();
 
 // Messages data for notify to display
 var messages = {
-	error: function(err) {
-		$.notify.onError({
-			title: config.messages.error.title,
-			message: config.messages.error.message
-		}) (err);
+  error: function (err) {
+    $.notify.onError({
+      title: config.messages.error.title,
+      message: config.messages.error.message
+    })(err);
 
-		this.emit('end');
-	},
-	success: {
-		title: config.messages.success.title,
-		message: config.messages.success.message,
-		onLast: true
-	}
+    this.emit('end');
+  },
+  success: {
+    title: config.messages.success.title,
+    message: config.messages.success.message,
+    onLast: true
+  }
 };
 
 // Load tasks from files
@@ -65,5 +68,5 @@ gulp.task('build',
 
 // Default Gulp task to Run
 gulp.task('default',
-	gulp.series('build', 'watch')
+  gulp.series('build', 'watch')
 );
