@@ -22,14 +22,13 @@ module.exports = function (gulp, $, config, messages, fs) {
       gulp.watch(config.javascript.src, gulp.series('scripts'))
         .on("change", $.browserSync.reload);
 
-      gulp.watch(["templates/**/*.twig"])
+      gulp.watch(config.twig.src)
         .on("change", $.browserSync.reload);
     }
 
     else {
       gulp.watch(config.sass.src, gulp.series('styles'));
       gulp.watch(config.javascript.src, gulp.series('scripts'));
-      gulp.watch(config.browserSync.src);
     }
   });
 };
