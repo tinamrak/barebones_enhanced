@@ -15,7 +15,7 @@ You can use rem units for font sizes: *1rem = 10px*, *1.8rem = 18px*, etc.
   - [Font Awesome](https://fontawesome.com/)
   - [Bootstrap](https://getbootstrap.com/)
   - [Foundation](https://get.foundation/)
-  
+
 - Stop preload animations ([more info](https://css-tricks.com/transitions-only-after-page-load/))
 - Body class *.path-error* for error pages (403, 404)
 
@@ -29,7 +29,7 @@ You can use rem units for font sizes: *1rem = 10px*, *1.8rem = 18px*, etc.
 
 ## Usage
 
-Clone this repository  
+Clone this repository
 ```
 git clone git@github.com:tinamrak/barebones_enhanced.git
 ```
@@ -46,6 +46,16 @@ cd _npm
 npm install
 npm audit fix
 gulp
+```
+
+Optionally enable browser-sync by editing the following lines in `config.json`.
+Change `enableProxy` to true, and specify your local development url to proxy:
+```
+  "browserSync": {
+    "enableProxy": true,
+    "proxy": "https://yourlocalhosturl",
+    ...
+  }
 ```
 
 Set Bare Bones Enhanced as your default theme
