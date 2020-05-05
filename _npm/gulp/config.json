@@ -34,11 +34,13 @@
     "destination": "../assets/scripts",
     "sourcemaps": "../scripts"
   },
-  "browserSync": {
-    "enableProxy": false,
-    "proxy": "https://yourlocalhosturl",
+  "twig": {
     "src": [
       "../templates/**/*.twig"
     ]
+  },
+  "browserSync": {
+    "enableProxy": false,
+    "proxy": "https://yourlocalhosturl"
   }
 }
