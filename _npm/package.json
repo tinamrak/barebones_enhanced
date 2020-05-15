@@ -4,7 +4,7 @@
   "description": "A skeleton theme for Drupal 8",
   "main": "gulpfile.js",
   "scripts": {
-    "setup": "npm install",
+    "setup": "npm install"
   },
   "repository": {
     "type": "git",
