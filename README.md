@@ -1,6 +1,6 @@
-# An enhanced starter theme for Drupal 8
+# An enhanced starter theme for Drupal 8 and Drupal 9
 
-This is an improved version of the skeleton theme for Drupal 8 - [Bare Bones](https://github.com/tinamrak/barebones).
+This is an improved version of the skeleton theme for Drupal 8 and Drupal 9 - [Bare Bones](https://github.com/tinamrak/barebones).
 
 Besides the most essential files it also includes some external libraries and a couple of performance improvements.
 
