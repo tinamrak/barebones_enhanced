@@ -16,11 +16,15 @@
 // Bootstrap
 // https://getbootstrap.com/
 //
-// To use Bootstrap uncomment the line below.
+// To use Bootstrap uncomment the second line below.
 // If you wish to only use the Bootstrap grid, replace
 // the import with "../_npm/node_modules/bootstrap/scss/bootstrap-grid".
 //
+// To override the default Bootstrap variables uncomment the first import and
+// add your custom variables to that file.
+//
 //-------------------------------
+// @import "bootstrap_variables_override";
 // @import "../_npm/node_modules/bootstrap/scss/bootstrap";
 
 

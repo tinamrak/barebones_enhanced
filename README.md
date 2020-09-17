@@ -64,7 +64,7 @@ Set Bare Bones Enhanced as your default theme
 drush config-set system.theme default barebones_enhanced -y
 ```
 
-Once this theme is enabled check out the sass/base/_libraries.scss for further instructions on how to enable each external library.
+Once this theme is enabled check out the sass/libraries/_libraries.scss for further instructions on how to enable each external library.
 
 ------------
 
